@@ -3,6 +3,10 @@ class Animal {
         this.species = species;
     }
 
+    getSpecies() {
+        return this.species;
+    }
+
     makeSound() {
         console.log(`The ${this.species} makes a sound`);
     }
